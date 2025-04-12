@@ -25,7 +25,7 @@ class Student:
         self.is_enrolled = is_enrolled
 
     def enroll_student(self):
-        if not self.is_enrolled:     #if (self.is_enrolled == False):
+        if not self.is_enrolled:    
             self.is_enrolled = True
             return f'-> {self.name} is now enrolled'
         else:
@@ -33,7 +33,7 @@ class Student:
             
 
     def drop_student(self):
-        if self.is_enrolled:     #if (self.is_enrolled == True):
+        if self.is_enrolled:    
             self.is_enrolled = False
             return f'-> {self.name} has dropped out'
         else:
