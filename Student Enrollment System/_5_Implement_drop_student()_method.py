@@ -14,7 +14,7 @@ class Student:
         self.is_enrolled = is_enrolled
 
     def enroll_student(self):
-        if not self.is_enrolled:     #if (self.is_enrolled == Fals):
+        if not self.is_enrolled:     #if (self.is_enrolled == False):
             self.is_enrolled = True
             return f'-> {self.name} is now enrolled'
         else:
