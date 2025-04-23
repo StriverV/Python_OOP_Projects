@@ -1,11 +1,3 @@
-"""
-Make the attributes 
-(such as student_id, name, department, is_enrolled) 
-as protected/private as possible using Python’s class mechanisms.
- This will ensure that 
-these attributes cannot be accessed directly outside the class.
-"""
-
 class StudentDatabase:
 
     student_list = []    
